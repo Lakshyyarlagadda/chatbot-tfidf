@@ -31,19 +31,18 @@ This approach is well suited for FAQ-style and domain-specific chatbot applicati
 
 ## Project Structure
 
-```
-project/
-│── chatbot.py                 # Main chatbot logic
-│── preprocess.py              # Text preprocessing utilities
-│── evaluate.py                # Evaluation and metrics generation
-│── Conversation.csv           # Question–answer dataset
-│── confusion_matrix_normalized.png
-│── evaluation_report.txt
-│── README.md
-│── .gitignore
-```
 
----
+project/
+| chatbot.py                 # Main chatbot logic
+│ preprocess.py              # Text preprocessing utilities
+│ evaluate.py                # Evaluation and metrics generation
+│ Conversation.csv           # Question–answer dataset
+│ confusion_matrix_normalized.png
+│ evaluation_report.txt
+│ README.md
+│ .gitignore
+
+
 
 ## How to Run the Project
 
